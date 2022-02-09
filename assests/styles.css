@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 20px;
+}
+nav .logo{
+    color: #EE5A24;
+    font-size: 28px;
+    font-family: 800;
+    margin-left: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+nav ul li{
+    color: #ecf0f1;
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+div .image{
+    width: 100%;
+    height: 100vh;
+    background: url(https://source.unsplash.com/WLUHO9A_xik/1600x900);
+    background-attachment: fixed;
+}
+
+div .content{
+    padding: 100px 50px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 100vh;
+}
+div .content p{
+    margin-bottom: 30px;
+}
