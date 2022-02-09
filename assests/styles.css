@@ -3,10 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    height: 100vh;
-    overflow: hidden;
-}
 nav{
     background-color: rgba(0, 0, 0, 0.8);
     display: flex;
@@ -33,7 +29,19 @@ nav ul li{
     margin: 0 20px;
     cursor: pointer;
 }
-div img{
+div .image{
     width: 100%;
     height: 100vh;
+    background: url(https://source.unsplash.com/WLUHO9A_xik/1600x900);
+    background-attachment: fixed;
+}
+
+div .content{
+    padding: 100px 50px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 100vh;
+}
+div .content p{
+    margin-bottom: 30px;
 }
